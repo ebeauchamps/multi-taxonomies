@@ -17,14 +17,11 @@ Multi-Taxonomies - Statamic Addon
 
 ## How to Install
 ## Installation:
-1. Navigate to the Tools > Addons section in the Statamic control panel.
-2. Search for "Multi-Taxonomies" and click Install.
-   OR
 Run the following command from your project root:
 
 ```  bash 
 
-composer require trestudioweb/dynamic-select
+composer require ebeauchamps/multi-taxonomies
 
 ```
 

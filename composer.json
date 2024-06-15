@@ -41,6 +41,7 @@
             "pixelfear/composer-dist-plugin": true
         }
     },
+    "minimum-stability": "stable",
     "require": {
         "statamic/cms": "^4.0 || ^5.0"
     }

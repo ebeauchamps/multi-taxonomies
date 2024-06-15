@@ -41,14 +41,14 @@ This addon is specifically designed to assist in retrieving or populating depend
    - Ensure the dependent taxonomy has a field with a foreign key linking it to the first taxonomy.
 2. Create Field Type:
    - Within the content you intend to use, create the field type.
-   - Choose the "Dynamic-select" field type in the special section when configuring your content blueprints.
+   - Choose the "Multi Taxonomies" field type in the Special section when configuring your content blueprints.
 3. Configure Resource:
    - In the resource configuration section, select "taxonomy" as the resource origin.
    - This enables the configuration section for the two taxonomies that will populate the two selects.
 4. Configuration of the First Taxonomy:
    - Three configuration fields are available:
         "First Taxonomy": Choose the taxonomy populating the first select.
-        Primary Key": Specify the primary key column within the first taxonomy.
+        "Primary Key": Specify the primary key column within the first taxonomy.
         "Text Field": Specify the column containing visible text for the end user.
 5. Configuration of the Second Taxonomy:
     - In this section, configure information for the second taxonomy with four fields:

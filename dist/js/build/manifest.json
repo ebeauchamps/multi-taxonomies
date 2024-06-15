@@ -1,0 +1,7 @@
+{
+  "resources/js/addon.js": {
+    "file": "assets/addon-ea8c51ca.js",
+    "isEntry": true,
+    "src": "resources/js/addon.js"
+  }
+}

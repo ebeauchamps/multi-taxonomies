@@ -1,0 +1,14 @@
+title: depto
+fields:
+  - handle: title
+    field:
+      type: text
+      display: Title 
+  - handle: slug
+    field:
+      type: text
+      display: Id or slug 2
+  - handle: label
+    field:
+      type: text
+      display: Label 3

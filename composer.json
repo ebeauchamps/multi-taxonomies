@@ -1,0 +1,47 @@
+{
+    "name": "ebeauchamps/multi-taxonomies",
+    "description": "Simplify relations between 2 taxonomies. The value of the second one dynamically adjusts from the value of the first one.",
+    "autoload": {
+        "psr-4": {
+            "ebeauchamps\\MultiTaxonomies\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "ebeauchamps"
+        }
+    ],
+    "license": "MIT",
+    "extra": {
+        "statamic": {
+            "name": "Multi-Taxonomies"
+        },
+        "laravel": {
+            "providers": [
+                "ebeauchamps\\MultiTaxonomies\\ServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.24",
+        "pestphp/pest-plugin-laravel": "^2.2",
+        "orchestra/testbench": "^8.13"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ebeauchamps\\MultiTaxonomies\\Tests\\": "tests/"
+        },
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "pixelfear/composer-dist-plugin": true
+        }
+    },
+    "require": {
+        "statamic/cms": "^4.0 || ^5.0"
+    }
+}

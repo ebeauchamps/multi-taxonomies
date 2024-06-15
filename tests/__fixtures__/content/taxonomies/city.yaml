@@ -1,0 +1,14 @@
+title: city
+fields:
+  - handle: title
+    field:
+      type: text
+      display: Title
+  - handle: foring-key
+    field:
+      type: text
+      display: Foreing Key
+  - handle: label
+    field:
+      type: text
+      display: Label

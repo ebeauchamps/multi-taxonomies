@@ -13,7 +13,7 @@ class MultiTaxonomiesFieldtype extends Fieldtype
         'information' =>
         [
             'display'       => 'Configuration of type',
-            'instructions'  => 'Section where you can configure the type of source of the resources',
+            'instructions'  => 'Section where you configure the type of source for the resources',
             'type'          => 'section',
             'width'         => 100,
             'if'            => [
@@ -34,7 +34,7 @@ class MultiTaxonomiesFieldtype extends Fieldtype
         'section_first_taxonomy' =>
         [
             'display'       => 'Config First Taxonomy',
-            'instructions'  => 'Section where you configure the data of the first taxonomy',
+            'instructions'  => 'Section where you configure the data for the first taxonomy',
             'type'          => 'section',
             'width'         => 100,
             'if'            => [
@@ -42,9 +42,9 @@ class MultiTaxonomiesFieldtype extends Fieldtype
             ],
         ],
         'taxonomies_one'=> [
-            'display'   => 'select taxonomy',
+            'display'   => 'First Taxonomy',
             'type'      => 'taxonomies',
-            'instructions' => 'Select the first taxonomy',
+            'instructions' => 'Select the first (primary) taxonomy',
             'max_items' => 1,
             'if'        => [
                 'mode'  => 'equals taxonomy',
@@ -55,7 +55,7 @@ class MultiTaxonomiesFieldtype extends Fieldtype
         'taxonomies_one_field_key' => [
             'display'   => 'Primary key',
             'type'      => 'text',
-            'instructions' => 'Write the handle of the column that serves as the primary key',
+            'instructions' => 'Write the handle of the column that serves as the primary key for the first taxonomy',
             'default'   => 'slug',
             'required'  => true,
             'width'     => 33
@@ -64,14 +64,14 @@ class MultiTaxonomiesFieldtype extends Fieldtype
         'taxonomies_one_field_label' => [
             'display'   => 'Label column',
             'type'      => 'text',
-            'instructions' => 'Write the handle of the column that is the text of the options in the first taxonomy',
+            'instructions' => 'Write the handle of the column that is the text for the options in the first taxonomy',
             'required'  => true,
             'width'     => 33
         ],
         'section_second_taxonomy' =>
         [
-            'display'       => 'Config second Taxonomy',
-            'instructions'  => 'Section where you configure the data of the second taxonomy',
+            'display'       => 'Config Second Taxonomy',
+            'instructions'  => 'Section where you configure the data for the second taxonomy',
             'type'          => 'section',
             'width'         => 100,
             'if'            => [
@@ -81,7 +81,7 @@ class MultiTaxonomiesFieldtype extends Fieldtype
         'taxonomies_depend' => [
             'display'   => 'Second Taxonomy',
             'type'      => 'taxonomies',
-            'instructions' => 'Select the dependent taxonomy (second taxonomy)',
+            'instructions' => 'Select the second (dependent) taxonomy',
             'max_items' => 1,
             'if'        => [
                 'mode'  => 'equals taxonomy',
@@ -100,14 +100,14 @@ class MultiTaxonomiesFieldtype extends Fieldtype
         'taxonomies_depend_field_key' => [
             'display'       => 'Primary key',
             'type'          => 'text',
-            'instructions'  => 'Write the handle of the column that serves as the primary key',
+            'instructions'  => 'Write the handle of the column that serves as the primary key for the second taxonomy',
             'required'      => true,
             'width'         => 25
         ],
         'taxonomies_depend_field_label' => [
             'display'   => 'Label column',
             'type'      => 'text',
-            'instructions' => 'Write the handle of the column that is the text of the options in the second taxonomy',
+            'instructions' => 'Write the handle of the column that is the text for the options in the second taxonomy',
             'required'  => true,
             'width'     => 25
         ],

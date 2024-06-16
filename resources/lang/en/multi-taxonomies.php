@@ -4,10 +4,10 @@ return [
         'Configuration of type' => 'Resource setting',
         'select origin' => 'Resource origin',
         'Config First Taxonomy' => 'First Taxonomy Config',
-        'First taxonomy' => 'First Taxonomy',
+        'First Taxonomy' => 'First Taxonomy',
         'Primary key' => 'Taxonomy key',
         'Label column' => 'Label column',
-        'Config second Taxonomy' => 'Second Taxonomy Config',
+        'Config Second Taxonomy' => 'Second Taxonomy Config',
         'Second Taxonomy' => 'Second Taxonomy',
         'Foreign key' => 'Foreign key',
 

@@ -4,10 +4,10 @@ return [
         'Configuration of type' => 'Configuration des ressources',
         'select origin' => 'Origine de la ressource',
         'Config First Taxonomy' => 'Configuration première taxonomie',
-        'First taxonomy' => 'Première taxonomie',
+        'First Taxonomy' => 'Première taxonomie',
         'Primary key' => 'Clef de la taxonomie',
         'Label column' => 'Champ texte',
-        'Config second Taxonomy' => 'Configuration seconde taxonomie',
+        'Config Second Taxonomy' => 'Configuration seconde taxonomie',
         'Second Taxonomy' => 'Seconde taxonomie',
         'Foreign key' => 'Clef externe',
 
